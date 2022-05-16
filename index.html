@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Main Page</title>
+    </head>
+    <body>
+        <hr>
+        <!-- Heading -->
+        <h1>Main Page</h1>
+
+        <!-- Text -->
+        <p>
+            <strong>Welcome</strong> to the homepage of my ultra-basic HTML website :)
+        </p>
+        <p>
+            <a href="https://google.com" target="_blank">This</a> link will take you to google, 
+            but <a href="profilePage.html" >THIS</a> link will take you to my profile page.
+        </p>
+        <p>
+            Below is a form that does not work:
+        </p>
+
+        <!-- Form -->
+        <form action="backendfile" method="POST">
+            <div>
+                <label>First Name</label>
+                <input type="text" name="firstName" placeholder="placeholder">
+            </div>
+            <div>
+                <label>Last Name</label>
+                <input type="text" name="lastName">
+            </div>
+            <div>
+                <label>Email</label>
+                <input type="email" name="email">
+            </div>
+            <div>
+                <label>Message</label>
+                <textarea name="message"></textarea>
+            </div>
+            <div>
+                <label>Options</label>
+                <select name="options">
+                    <option value="opt1">Opt1</option>
+                    <option value="opt2">Opt2</option>
+                    <option value="opt3">Opt3</option>
+                </select>
+            </div>
+            <div>
+                <label>Age</label>
+                <input type="number" name="age" value=30>
+            </div>
+            <div>
+                <label>Date</label>
+                <input type="date" name="date">
+            </div>
+            <input type="submit" name="submit" value="Send Info">
+            
+        </form>
+
+        <div style="margin-top:200px"></div>
+    </body>
+</html>
